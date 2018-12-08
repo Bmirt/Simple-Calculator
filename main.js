@@ -85,6 +85,6 @@ function brackets() {
 
 function compute() {
     var input_var = document.getElementById('input');
-    var ans = Math.floor(+eval(input_var.value));
+    var ans = eval(input_var.value);
     document.getElementById('answer').value = '=' + ans;
 }
